@@ -6,7 +6,7 @@
 
 
 #define RESPONSE_BITS 16  // Collect 16 responses per challenge (128-bit response)
-#define SAMPLE_SIZE 10  // Collect 1000 samples per challenge
+#define SAMPLE_SIZE 10  // Collect 10 samples per challenge
 #define CHALLENGE_COUNT 10 // Total challenges to be sent
 
 void update_challenge(alt_u8 *c0) {
