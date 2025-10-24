@@ -122,7 +122,7 @@ Alternatively, use Nios II SBT for Eclipse to create a small C app and add `main
 
 - Configuration (in `main.c`):
   - `N_ROUNDS = 16` (16 bytes → 128 bits total)
-  - `SAMPLES_PER_CHALL = 1000` (per challenge majority voting)
+  - `SAMPLES_PER_CHALL = 1000`
   - Challenge sequence: start at `CHALLENGE_SEED` (default 0x3C), then increment by `CHALLENGE_STEP` (default 0x01) each round
 - Measurement for each challenge:
   1. Write `challenge_export`.
