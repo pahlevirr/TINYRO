@@ -6,3 +6,4 @@ simulation/
 *.bak
 .qsys_edit/
 db/
+TinyRO.vhd
